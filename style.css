@@ -1,0 +1,490 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: 'Kumbh Sans', sans-serif; 
+}
+
+.img__logo{
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    width: 10rem;
+    height: 10rem;
+}
+
+
+p.homepage_content{
+  display: flex;
+  justify-items: center;
+  align-self: center;
+  text-decoration: solid;
+  font-size: x-large;
+  color: #fff;
+  background-image: linear-gradient(#131313,#c7050c,#e7a20e) ;
+  border-radius: 10px;
+
+}
+
+.navbar{
+    background: #131313;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position:relative;
+    top: 0;
+    z-index: 999;
+    
+}
+
+.navbar__container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__item{
+    height: 80px;
+
+}
+.navbar__links{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: solid;
+    padding: 0 1rem;
+    height: 100%;
+    font-family: 'Kumbh Sans', sans-serif;
+    
+}
+
+.navbar__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #c70505;
+    color: #fff;
+}
+
+.button:hover{
+    background: #e7a20e;
+    transition: all 0.3s ease;
+}
+
+
+.navbar__links:hover{
+    color: #c70505;
+    transition: all 0.3s ease;
+}
+
+div.heading_ani{ 
+  border-radius: 10px;
+  animation-duration: 8s;
+  animation-name: heading_ani;
+  animation-iteration-count: infinite;
+ }
+  
+@keyframes heading_ani {
+  0% {background-color: #c70505;
+
+  }
+  25%{background-color: #131313;
+
+  }
+  50%{background-color: #e7a20e;
+
+  }
+  75%{background-color: #131313;
+
+  }
+  100%{background-color: #c70505;
+
+  }
+}
+
+/* Styles for services page*/
+.services_content{
+ color: #fff;
+  background-image: linear-gradient(#131313,#c70505,#e7a20e);
+  padding: 40px auto;
+  border-radius: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  border: #131313;
+  border-width: 12px;
+
+}
+
+u.services{
+  color: #fff;
+  
+}
+
+
+h1.services{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  color: #e7a20e;
+
+ 
+}
+
+/*services*/
+
+
+/* Styles for about us page*/
+
+h1.about{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  color: #e7a20e;
+
+}
+
+h3.about{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  color: #e7a20e;
+}
+
+.about_content{
+  background-image: linear-gradient(#131313,#c70505,#e7a20e);
+  color: #fff;
+  padding: 40px auto;
+  border-radius: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: center;
+  align-content: center;
+}
+/*about us*/
+
+/* Styles for contact us page*/
+
+h1.contact{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  color: #e7a20e;
+
+}
+
+.social-icons_con{
+  padding-top: 5px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 25px;
+  cursor: pointer; 
+  color: #e7a20e;
+ 
+ 
+}
+
+
+.contact_content{
+  background-image: linear-gradient(#131313,#c70505,#e7a20e);
+  color: #fff;
+  padding: 40px auto;
+  border-radius: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: center;
+  align-content: center;}
+
+  footer.contact{
+background-image: linear-gradient(#131313,#c7050c,#e7a20e);
+color: #fff;;
+text-align: center;
+width: 100%;
+padding: 10px 0 10px;
+width: 99.99%;
+position: absolute;
+padding: 50px 0 30px;
+font-size: 13px;
+line-height: 15px;
+margin-top: 14rem;
+height: 1000px;
+}
+/*contact us*/
+
+
+/* Styles for Join us page*/
+
+h1.join{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: #e7a20e;
+
+}
+
+/*Join us*/
+
+h1.heading{ 
+    text-decoration: solid;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 3rem;
+    color: white;
+}
+
+.img_arrangement{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-between;
+
+
+}
+
+.img_structure:hover{
+  height: 13rem;
+  width: 13rem;
+}
+
+.img_structure{
+  width: 200px;
+  height: 200px;
+  border-radius: 12px;
+
+}
+
+a.email{
+    color: #fff;
+}
+
+a.email:hover{
+    
+    transition: all 0.5s ease;
+    color:blue;
+    background: #fff;    
+}
+
+h2.footer__heading{
+    color: #fff;
+}
+
+.copy{
+  font-size: small;
+  color: #fff;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+
+
+
+footer {
+background-image: linear-gradient(#131313,#c7050c,#e7a20e);
+color: #fff;;
+text-align: center;
+width: 100%;
+padding: 10px 0 10px;
+width: 99.99%;
+position: absolute;
+padding: 50px 0 30px;
+font-size: 13px;
+line-height: 15px;
+margin-top: 5rem;
+height: 1000px;
+}
+footer p {
+  text-align:center;
+  font-weight: 600;
+}
+.button-list a { 
+  color: white;
+  text-align: center;
+  list-style: none;
+}
+button { 
+background-color:#131313;
+padding: 10px 20px;
+border: none;
+font-size: 20px;
+cursor: pointer;
+color: #fff;
+border-radius: 50px;
+}
+
+button:hover{
+    background: #e7a20e;
+    transition: all 0.4s ease;
+    
+    
+}
+
+button a:hover {
+  color: #fff;
+}
+.social-icons {
+  padding-top: 5px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 25px;
+  cursor: pointer;
+  align-content: space-between;
+}
+
+.row{
+    display: flex;
+}
+
+.column1{
+    flex: 33.3%;
+    padding: 20px;
+}
+
+.column2{
+    flex: 50%;
+    padding: 20px;
+}
+
+.text_ori{
+  transform: rotate(90deg);
+  text-align: left;
+}
+
+.column_form{
+  display: flex;
+  justify-content: center;
+    flex: 100%;
+    padding: 20px;
+}
+.TC{
+    font-size: xx-small;
+}
+
+
+
+@media screen and (max-width:960px) {
+    .navbar__container{
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        padding: 0;
+    }
+
+    .navbar__menu{
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0;
+        width: 44.43%;
+        position: absolute;
+        top: -1000px;
+        opacity: 0;  
+        transition: all 0.5s ease;
+        height: 120vh;
+        z-index: -1;
+        background: #131313;
+
+    }
+    
+    .navbar__menu.active {
+        background: #131313;
+        top: 100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 99;
+        height: 100vh;
+        font-size: 1.6rem;
+    }
+    #navbar__logo{
+        padding-left: 30px;
+    }
+    .navbar__toggle .bar{
+        width: 25px;
+        height: 4px;
+        margin: 5px auto;
+        transition: all 0.3s ease-in-out;
+        background: #fff;
+           
+    }
+    
+    .navbar__item{
+        width: 100%;
+    }
+    .navbar__links{
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+    #mobile-menu{
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        transform: translate(5%,20%);
+    }
+    .navbar__btn{
+        padding-bottom: 2rem;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80px;
+        margin: 0;
+    }
+    .navbar__toggle .bar{
+        display: block;
+        cursor: pointer;
+    }
+    #mobile-menu.is-active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    #mobile-menu.is-active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    #mobile-menu.is-active .bar:nth-child(3) {
+        
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+}
+
+    
